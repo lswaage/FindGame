@@ -12,7 +12,7 @@ const options = {
 };
 
 rp(options)
-    .then(($) => {
+    .then(($) => { 
         //    console.log($);
         $('.collection_rank').each(function (i, el) {
             var rank = $(this).text().trim();
